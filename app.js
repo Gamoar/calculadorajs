@@ -3,29 +3,29 @@ let vari2;
 let visor;
 
 function somar(vari1,vari2){
-    vari1 = parseInt(document.getElementById("var1").value);
-    vari2 = parseInt(document.getElementById("var2").value);
+    vari1 = parseFloat(document.getElementById("var1").value);
+    vari2 = parseFloat(document.getElementById("var2").value);
     visor = vari1 + vari2;
     document.getElementById("visor").value = visor;
 }
 
 function diminuir(vari1,vari2){
-    vari1 = parseInt(document.getElementById("var1").value);
-    vari2 = parseInt(document.getElementById("var2").value);
+    vari1 = parseFloat(document.getElementById("var1").value);
+    vari2 = parseFloat(document.getElementById("var2").value);
     visor = vari1 - vari2;
     document.getElementById("visor").value = visor;
 }
 
 function multiplicar(vari1,vari2){
-    vari1 = parseInt(document.getElementById("var1").value);
-    vari2 = parseInt(document.getElementById("var2").value);
+    vari1 = parseFloat(document.getElementById("var1").value);
+    vari2 = parseFloat(document.getElementById("var2").value);
     visor = vari1 * vari2;
     document.getElementById("visor").value = visor;
 }
 
 function dividir(vari1,vari2){
-    vari1 = parseInt(document.getElementById("var1").value);
-    vari2 = parseInt(document.getElementById("var2").value);
+    vari1 = parseFloat(document.getElementById("var1").value);
+    vari2 = parseFloat(document.getElementById("var2").value);
     visor = vari1 / vari2;
     document.getElementById("visor").value = visor;
 }
